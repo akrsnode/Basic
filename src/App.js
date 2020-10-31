@@ -1,12 +1,11 @@
-import './styles/App.css';
-import ToDo from './components/ToDoList';
-import AppHeader from './components/AppHeader';
+import Header from './components/Header';
+import Table from './components/Table';
 
 function App() {
   return (
     <div>
-      <AppHeader />
-      <ToDo />
+      <Header />
+      <Table />
     </div>
   );
 }
