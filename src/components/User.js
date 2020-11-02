@@ -1,18 +1,26 @@
 import React from 'react';
+import { Card, Image } from 'semantic-ui-react';
+import UserData from './../data/UserData'
 
 class User extends React.Component {
-  constructor() {
-    super();
-    this.state = {userName: ['Adrian', 'Adam']};
-  }
-
-  changeUser() {
-    this.setState(userName)
-  }
+  // changeUser() {
+  //   this.setState(userName)
+  // }
+  state = UserData.state.users
   
   render() {
     return(
-      <h3>{this.state.userName[0]}</h3>
+      <Card>
+        <Card.Content>
+          <Image
+            floated='right'
+            size='mini'
+            src={this.state.userName[0].logo}
+          />
+          <Card.Header>{this.state.userName[0].name}</Card.Header>
+          <Card.Meta>{this.state.userName[0].title}</Card.Meta>
+        </Card.Content>
+      </Card>
     )
   }
 }
