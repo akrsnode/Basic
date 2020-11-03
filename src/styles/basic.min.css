@@ -1,2 +1,2 @@
-.btn-ver{font-size:10px;padding:5px;font-wight:500}
+.btn-ver{font-size:10px;padding:5px;font-wight:500}.user{padding:1em;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-ms-flex-flow:row-reverse wrap;flex-flow:row-reverse wrap;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:start;-webkit-box-align:end;-ms-flex-align:end;align-items:end}.user .name,.user .title{-webkit-box-flex:0;-ms-flex:0 0 60%;flex:0 0 60%;margin:0}.user .title{color:rgba(0,0,0,0.4);font-size:14px}.user img{width:40px;height:40px}
 /*# sourceMappingURL=basic.min.css.map */
