@@ -1,5 +1,3 @@
-import React from 'react'
-
 let users = [
   {
     id: 0,
@@ -27,8 +25,4 @@ let users = [
   }
 ]
 
-class UserData extends React.Component {
-  state = users;
-}
-
-export default UserData;
+export default users;
